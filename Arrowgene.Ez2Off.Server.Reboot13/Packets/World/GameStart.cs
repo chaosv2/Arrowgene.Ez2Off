@@ -64,10 +64,10 @@ namespace Arrowgene.Ez2Off.Server.Reboot13.Packets.World
             buffer.WriteByte(1);//Level
             buffer.WriteFloat(1.6f);//MeasureScale
             //JudgmentDelta BYTE
-            buffer.WriteByte(8);//Kool
-            buffer.WriteByte(24);//Cool
-            buffer.WriteByte(60);//Good
-            buffer.WriteByte(76);//Miss
+            buffer.WriteByte(99);//Kool
+            buffer.WriteByte(1);//Cool
+            buffer.WriteByte(1);//Good
+            buffer.WriteByte(1);//Miss
             //GaugeUpDownRate Float
             buffer.WriteFloat(0.2f);//Cool
             buffer.WriteFloat(0.1f);//Good
